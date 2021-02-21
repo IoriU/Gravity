@@ -21,7 +21,6 @@ public abstract class Gravity : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        print(collision.transform.gameObject.name);
         if (!collision.transform.CompareTag("Clickable"))
         {
             if (!(collision.transform.CompareTag("Ball") || collision.transform.CompareTag("Gravity")))

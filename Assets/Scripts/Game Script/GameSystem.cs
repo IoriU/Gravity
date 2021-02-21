@@ -125,7 +125,6 @@ public class GameSystem : MonoBehaviour
         if (Physics.Raycast(cam.transform.position, direction, out hit))
         {
             Debug.DrawLine(cam.transform.position, direction);
-            print(hit.transform.name);
             if (hit.transform.tag.Equals("Clickable") && hit.transform.GetComponent<ClickableArea>().GetClickable())
             {
                 return true;

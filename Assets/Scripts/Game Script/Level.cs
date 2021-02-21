@@ -25,7 +25,6 @@ public class Level : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene("Level " + level);
-        print("Level " + level);
     }
 
     public void LoadLevel()
