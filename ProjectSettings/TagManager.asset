@@ -7,6 +7,8 @@ TagManager:
   - Ball
   - Enemy
   - Clickable
+  - Gravity
+  - UIController
   layers:
   - Default
   - TransparentFX
@@ -16,14 +18,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ball
+  - Enemy
+  - Obstacle
+  - Button
+  - Gate
+  - Teleport
+  - Goal
+  - Checkpoint
   - 
   - 
   - 
